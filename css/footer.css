@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    background-color: rgb(235, 235, 235);
+    height: 100px;
+}
+footer > p{
+    padding-left: 22px;
+}
+.fa-copyright{
+    font-size: 20px !important;
+}
+#logoFooter{
+    height: 100px;
+}

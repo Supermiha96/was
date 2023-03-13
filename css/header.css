@@ -1,0 +1,60 @@
+*{
+  font-family: 'Playfair Display', serif;
+}
+header {
+  height: 100px;
+  background-color: #27231f;
+}
+#Inicio {
+  margin-left: 30px;
+  
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 80px;
+  align-items: baseline;
+}
+.navIzq {
+  display: flex;
+  align-items: center;
+}
+
+.navDer {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 6px;
+}
+#logoSuperior {
+  height: 110px;
+  width: 110px;
+}
+#logoUserNav {
+  height: 50px;
+  width: 50px;
+}
+.avatar {
+  size: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding-left: 7px;
+}
+a:hover{
+  background-color: #e1db0a;
+  color: black;
+  border-radius: 20px;
+  padding: 7px;
+}
+/* .activo:active{
+  background-color: #00c100;
+} */
